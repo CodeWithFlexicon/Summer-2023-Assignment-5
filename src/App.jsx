@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+export function Title() {
+  return <h1 className="game-title">Tic-Tac-Toe</h1>;
+}
+
 function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
